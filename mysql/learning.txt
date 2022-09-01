@@ -1,0 +1,17 @@
+create database day1;
+use day1;
+create table numbers(a int,b float(2,2),c decimal(2,2),d double(10,2));
+desc numbers;
+insert into numbers values(2,0.0,0.0,99.09);
+select * from numbers;
+create table aplpha(a char,b varchar(20),c tinyblob,d mediumblob,e longblob,f tinytext,g mediumtext,h text);
+
+select * from aplpha;
+create table alpha2(a enum('a','b'),b set('c','d'));
+insert into alpha2 values('a','d');
+select * from alpha2;
+create table days(a time,b date,c datetime,d timestamp,e year);
+insert into days values("06:39:50","2022-08-10","2022-08-10 06:39:50","20220810064056","2022");
+select * from days;
+
+

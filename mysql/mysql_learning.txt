@@ -1,0 +1,53 @@
+Database ==> collection of data
+database 2 types
+
+1) Rdbms (relational database)
+	==> data was related to each other
+	Ex:
+		sql (stractured query language)
+			==> my sql
+			==> oracle
+			==> sql lite
+			
+2) Nrdbms (non-relational database)
+	==> data is not related
+		==> mongodb
+		
+Datypes 
+	1) numbers  
+		1) int
+			3333
+			44
+			6
+		2) float
+			3333.333
+			4.5
+			0.6
+			
+			==> float(d,m)
+				Example:
+				  float(4,3)
+			==> decimal(d,m)
+			==> double (d,m)
+	2) strings
+		1)BLOB  (binary long object)
+			==> tinyblob                
+			==> mediumblob              
+			==> blob
+			==> longblob
+			
+		2)text
+			==> tinytext
+			==> mediumtext
+			==> text
+			==> longtext
+		3) char  'a','1'
+		4) varchar(100)   ==>  ''
+		5) enum('<fileds>')
+		6) set('<fields>')
+	3) dates
+			time   "hh:mm:ss"
+			date   "yyyy-mm-dd"
+			datetime "yyyy-mm-dd hh:mm:ss"
+			timestamp "yyymmddhhmmss"
+			year "yyyy"
